@@ -6,7 +6,7 @@ Repos with panels
 
 <table>
 	<tr>
-		<td><b>Method</b></td>
+		<td><b>Methods</b></td>
 		<td><b>Description</b></td>
 	</tr>
 	<tr>
