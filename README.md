@@ -15,7 +15,7 @@ The library have a slider separating the fragments, you can drag this slider and
 		<td>Set de drawables for the slider in horizontal and vertical like this example: setSlidersDrawables(R.drawable.slider_horizontal, R.drawable.slider_vertical);</td>
 	</tr>
 	<tr>
-		<td><b>ssetSliderSize(int size)</b></td>
+		<td><b>setSliderSize(int size)</b></td>
 		<td>Set the slider size</b></td>
 	</tr>
 	<tr>
@@ -27,11 +27,11 @@ The library have a slider separating the fragments, you can drag this slider and
 		<td>Set the orientation of the panels with the values LinearLayout.VERTICAL or LinearLayout.HORIZONTAL, default is LinearLayout.HORIZONTAL.</td>
 	</tr>
 	<tr>
-		<td><b>SlideFragmentsToRight()</b></td>
+		<td><b>slideFragmentsToRight()</b></td>
 		<td>Slide the fragments to the right with an animation.</td>
 	</tr>
 	<tr>
-		<td><b>SlideFragmentsToLeft()</b></td>
+		<td><b>slideFragmentsToLeft()</b></td>
 		<td>Slide the fragments to the left with an animation.</b></td>
 	</tr>
 	<tr>
