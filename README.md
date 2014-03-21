@@ -21,7 +21,9 @@ public class MainActivity extends TwoPanelsBaseActivity {
 	}
 ```
 
-You can extends the fragments from RightFragment and LeftFragment and these fragments have a button for slide the fragments, this button change automatically the drawables on orientation changes of the layout, like this example:
+You can extends the fragments from RightFragment and LeftFragment and these fragments have a button for slide the fragments, this button change automatically the drawables on orientation changes of the layout. 
+
+Example:
 
 ```java
 public class MyRightFragment extends RightFragment {
