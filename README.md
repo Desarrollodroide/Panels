@@ -1,4 +1,4 @@
-Panels
+TwoPanels
 ======
 
 Repos with panels
