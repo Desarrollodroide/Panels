@@ -5,8 +5,22 @@ TwoPanels
 The library have a slider separating the fragments, you can drag this slider and the fragments resize the views inside.
 
 
-USAGE
+Usage
 =====
+
+```java
+public class MainActivity extends TwoPanelsBaseActivity {
+
+	@Override
+	public void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setBaseOrientation(LinearLayout.HORIZONTAL);
+		MyRightFragment mRightFragment = new MyRightFragment();
+		MyLeftFragment mLeftFragment = new MyLeftFragment();
+		getFragmentManager().beginTransaction().add(R.id.right, mRightFragment).commit();
+		getFragmentManager().beginTransaction().add(R.id.left, mLeftFragment).commit();
+	}
+```
 
 
 
