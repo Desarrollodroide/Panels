@@ -7,11 +7,12 @@ Repos with panels
 <table>
 	<tr>
 		<td><b>Method</b></td>
-		<td><b>Arguments</b></td>
+		<td><b>Description</b></td>
 	</tr>
 	<tr>
-		<td><b>setParentContainer</b></td>
-		<td>Pointer to the Window object</td>
+		<td><b>setSlidersDrawables(int verticalDrawable, int horizontalDrawable)</b></td>
+		<td>Set de drawables for the slider in horizontal and vertical 
+Example: setSlidersDrawables(R.drawable.slider_horizontal, R.drawable.slider_vertical);</td>
 	</tr>
 	<tr>
 		<td><b>setBackground</b></td>
