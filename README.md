@@ -27,11 +27,6 @@ Example: setSlidersDrawables(R.drawable.slider_horizontal, R.drawable.slider_ver
 		<td>Set the orientation of the panels with the values LinearLayout.VERTICAL or LinearLayout.HORIZONTAL, default is LinearLayout.HORIZONTAL.</td>
 	</tr>
 	<tr>
-		<td><b>switchButtonsSliderVisivility()</b></td>
-		<td>Switch the visibility of the buttons of the fragments
-	</td>
-	</tr>
-	<tr>
 		<td><b>SlideFragmentsToRight()</b></td>
 		<td>Slide the fragments to the right with an animation.</td>
 	</tr>
