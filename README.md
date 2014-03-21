@@ -23,32 +23,34 @@ Example: setSlidersDrawables(R.drawable.slider_horizontal, R.drawable.slider_ver
 		<td>Set the visivility of the slider with an animate effect.</td>
 	</tr>
 	<tr>
-		<td><b>setWhiteAngle</b></td>
-		<td>-</td>
+		<td><b>setBaseOrientation(int orientation)</b></td>
+		<td>Set the orientation of the panels with the values LinearLayout.VERTICAL or LinearLayout.HORIZONTAL, default is LinearLayout.HORIZONTAL.</td>
 	</tr>
 	<tr>
-		<td><b>showAngle</b></td>
-		<td>-</td>
+		<td><b>switchButtonsSliderVisivility()</b></td>
+		<td>Switch the visibility of the buttons of the fragments
+</td>
 	</tr>
 	<tr>
-		<td><b>hideAngle</b></td>
-		<td>-</td>
+		<td><b>SlideFragmentsToRight()</b></td>
+		<td>Slide the fragments to the right with an animation.</td>
 	</tr>
 	<tr>
-		<td><b>setTitle</b></td>
-		<td>Dictionary with text and color properties.  Example: <b>{ text: 'My Window',color: '#fff'}</b></td>
+		<td><b>SlideFragmentsToLeft()</b></td>
+		<td>Slide the fragments to the left with an animation.</b></td>
 	</tr>
 	<tr>
-		<td><b>setBack</b></td>
-		<td>Instance of function to call when the back button is pressed.  If you want the button not to do anything, simply don't call this method.</td>
+		<td><b>showTwoFragments()</b></td>
+		<td>IShow two panels in the screen.</td>
 	</tr>
 	<tr>
-		<td><b>hideBottomLine</b></td>
-		<td>-</td>
+		<td><b>hideRight()</b></td>
+		<td>Hide the right panel and show the left panel in full screen.
+</td>
 	</tr>
 	<tr>
-		<td><b>showBottomLine</b></td>
-		<td>-</td>
+		<td><b>hideLeft()</b></td>
+		<td>Hide the left panel and show the right panel in full screen.</td>
 	</tr>
 	<tr>
 		<td><b>setActionButtons</td>
