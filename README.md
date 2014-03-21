@@ -15,12 +15,12 @@ Repos with panels
 Example: setSlidersDrawables(R.drawable.slider_horizontal, R.drawable.slider_vertical);</td>
 	</tr>
 	<tr>
-		<td><b>setBackground</b></td>
-		<td>Dictionary with color property. Example: <b>{ color: '#000'}</b></td>
+		<td><b>ssetSliderSize(int size)</b></td>
+		<td>Set the slider size</b></td>
 	</tr>
 	<tr>
-		<td><b>setBlackAngle</b></td>
-		<td>-</td>
+		<td><b>schangeSliderVisitility();</b></td>
+		<td>Set the visivility of the slider with an animate effect.</td>
 	</tr>
 	<tr>
 		<td><b>setWhiteAngle</b></td>
