@@ -56,7 +56,7 @@ public class MyRightFragment extends RightFragment {
 		<td>Set the slider size</b></td>
 	</tr>
 	<tr>
-		<td><b>schangeSliderVisitility();</b></td>
+		<td><b>switchSliderVisitility();</b></td>
 		<td>Set the visivility of the slider with an animate effect.</td>
 	</tr>
 	<tr>
