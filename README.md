@@ -11,9 +11,7 @@ Repos with panels
 	</tr>
 	<tr>
 		<td><b>setSlidersDrawables(int verticalDrawable, int horizontalDrawable)</b></td>
-		<td>Set de drawables for the slider in horizontal and vertical 
-
-Example: setSlidersDrawables(R.drawable.slider_horizontal, R.drawable.slider_vertical);</td>
+		<td>Set de drawables for the slider in horizontal and vertical like this example: setSlidersDrawables(R.drawable.slider_horizontal, R.drawable.slider_vertical);</td>
 	</tr>
 	<tr>
 		<td><b>ssetSliderSize(int size)</b></td>
@@ -37,7 +35,7 @@ Example: setSlidersDrawables(R.drawable.slider_horizontal, R.drawable.slider_ver
 	</tr>
 	<tr>
 		<td><b>showTwoFragments()</b></td>
-		<td>IShow two panels in the screen.</td>
+		<td>Show two panels in the screen.</td>
 	</tr>
 	<tr>
 		<td><b>hideRight()</b></td>
