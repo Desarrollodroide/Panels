@@ -12,6 +12,7 @@ Repos with panels
 	<tr>
 		<td><b>setSlidersDrawables(int verticalDrawable, int horizontalDrawable)</b></td>
 		<td>Set de drawables for the slider in horizontal and vertical 
+
 Example: setSlidersDrawables(R.drawable.slider_horizontal, R.drawable.slider_vertical);</td>
 	</tr>
 	<tr>
