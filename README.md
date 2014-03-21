@@ -29,7 +29,7 @@ Example: setSlidersDrawables(R.drawable.slider_horizontal, R.drawable.slider_ver
 	<tr>
 		<td><b>switchButtonsSliderVisivility()</b></td>
 		<td>Switch the visibility of the buttons of the fragments
-</td>
+	</td>
 	</tr>
 	<tr>
 		<td><b>SlideFragmentsToRight()</b></td>
@@ -46,14 +46,11 @@ Example: setSlidersDrawables(R.drawable.slider_horizontal, R.drawable.slider_ver
 	<tr>
 		<td><b>hideRight()</b></td>
 		<td>Hide the right panel and show the left panel in full screen.
-</td>
+	</td>
 	</tr>
 	<tr>
 		<td><b>hideLeft()</b></td>
 		<td>Hide the left panel and show the right panel in full screen.</td>
 	</tr>
-	<tr>
-		<td><b>setActionButtons</td>
-		<td>Object containing 3 arrays: visible, inflater and Android menu.  Each array holds menu options for each button in the following format: <b>{icon:'icon.png',title: 'Caption',action: Object}</b>.  Object contains 3 arrays: visible, inflater and androidmenu.  Each array contains a collection of objects with properties: title, icon and action.</td>
-	</tr>
+	
 </table>
