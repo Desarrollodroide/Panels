@@ -1,6 +1,6 @@
 TwoPanels
 =========
-![Logo](7m6u7.gif)
+![Logo](image.gif)
 
  TwoPanels is a full customizable library where you can hide and show the fragments in vertical and horizontal and customize the behaviour on orientation changes.
 The library have a slider separating the fragments, you can drag this slider and the fragments resize the views inside.
