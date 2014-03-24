@@ -5,7 +5,9 @@ TwoPanels
 The library have a slider separating the fragments, you can drag this slider and the fragments resize the views inside.
 
 You need to declare in your activity manifest:
+```xml
 android:configChanges="keyboardHidden|orientation|screenSize"
+```
 
 
 Usage TwoPanelsBaseActivity
