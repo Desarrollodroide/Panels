@@ -21,27 +21,6 @@ public class MainActivity extends TwoPanelsBaseActivity {
 	}
 ```
 
-You can use normal fragments or extends from RightFragment and LeftFragment, these fragments have a button for slide the fragments, this button change automatically the drawables on orientation changes of the layout. 
-
-Example:
-
-```java
-public class MyRightFragment extends RightFragment {
-
-	@Override
-	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-		super.onCreateView(inflater, container, savedInstanceState);
-		LinearLayout linear = new LinearLayout(getActivity());
-		LayoutInflater layoutInflater = (LayoutInflater) getActivity().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-		layoutInflater.inflate(R.layout.myright_fragment, linear, true);
-		LinearLayout linearInParent = (LinearLayout) mContainer.findViewById(R.id.linearRight);
-		linearInParent.addView(linear);
-		return this.mContainer;
-	}
-}
-```
-
-
 <table>
 	<tr>
 		<td><b>Methods</b></td>
@@ -86,6 +65,32 @@ public class MyRightFragment extends RightFragment {
 	</tr>
 	
 </table>
+
+Usage RightFragment and LeftFragment
+=====
+
+You can use normal fragments or extends from RightFragment and LeftFragment, these fragments have a button for slide the fragments, this button change automatically the drawables on orientation changes of the layout. 
+
+Example:
+
+```java
+public class MyRightFragment extends RightFragment {
+
+	@Override
+	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+		super.onCreateView(inflater, container, savedInstanceState);
+		LinearLayout linear = new LinearLayout(getActivity());
+		LayoutInflater layoutInflater = (LayoutInflater) getActivity().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+		layoutInflater.inflate(R.layout.myright_fragment, linear, true);
+		LinearLayout linearInParent = (LinearLayout) mContainer.findViewById(R.id.linearRight);
+		linearInParent.addView(linear);
+		return this.mContainer;
+	}
+}
+```
+
+
+
 
 License
 =======
