@@ -49,7 +49,7 @@ public class MyRightFragment extends RightFragment {
 	</tr>
 	<tr>
 		<td><b>setSlidersDrawables(int verticalDrawable, int horizontalDrawable)</b></td>
-		<td>Set de drawables for the slider in horizontal and vertical like this example: setSlidersDrawables(R.drawable.slider_horizontal, R.drawable.slider_vertical);</td>
+		<td>Set de drawables for the slider in horizontal and vertical like this example: setSlidersDrawables(R.drawable.slider_vertical, R.drawable.slider_horizontal);</td>
 	</tr>
 	<tr>
 		<td><b>setSliderSize(int size)</b></td>
