@@ -89,6 +89,22 @@ public class MyRightFragment extends RightFragment {
 }
 ```
 
+<table>
+	<tr>
+		<td><b>switchButtonsSliderVisivility()</b></td>
+		<td><b>Description</b></td>
+	</tr>
+	<tr>
+		<td><b>hideRight()</b></td>
+		<td>Toggle the visibility of the slider button.
+	</td>
+	</tr>
+	<tr>
+		<td><b>hsetSliderButtonsDrawables(int, int)</b></td>
+		<td>Set the drawables of the slider button according orientation of the layout.</td>
+	</tr>
+	
+</table>
 
 
 
