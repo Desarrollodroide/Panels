@@ -5,7 +5,7 @@ TwoPanels
 The library have a slider separating the fragments, you can drag this slider and the fragments resize the views inside.
 
 
-Usage
+Usage TwoPanelsBaseActivity
 =====
 
 ```java
