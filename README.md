@@ -91,11 +91,11 @@ public class MyRightFragment extends RightFragment {
 
 <table>
 	<tr>
-		<td><b>switchButtonsSliderVisivility()</b></td>
+		<td><b>Methods</b></td>
 		<td><b>Description</b></td>
 	</tr>
 	<tr>
-		<td><b>hideRight()</b></td>
+		<td><b>switchButtonsSliderVisivility()</b></td>
 		<td>Toggle the visibility of the slider button.
 	</td>
 	</tr>
